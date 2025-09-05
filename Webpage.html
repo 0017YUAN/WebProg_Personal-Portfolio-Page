@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <h1>My Personal Portfolio</h1>
+    <h2>Welcome to my portfolio page</h2>
+
+    <h2>Education History</h2>
+    <table border="1">
+        <tr>
+            <th>School Name</th>
+            <th>Year Start</th>
+            <th>Year Finish</th>
+            <th>Certificate/Diploma</th>
+        </tr>
+        <tr>
+            <th>Benjamin N. Cardozo High School</th>
+            <th>2020</th>
+            <th>2024</th>
+            <th>Advanced Regents Diploma with Honors</th>
+        </tr>
+    </table>
+
+    <h2>Travelling Experience</h2>
+    <ul>
+        <li>Cappadocia, Turkey</li>
+        <li>Hawaii, United States</li>
+        <li>Sifnos, Greece</li>
+    </ul>
+
+    <h3>Travel Video</h3>
+    <video width="768" height="432" controls>
+        <source src="https://www.pexels.com/download/video/3576378/" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video width="768" height="432" controls>
+        <source src="https://www.pexels.com/download/video/3015532/" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Travel Audio</h3>
+    <audio controls>
+        <source src="Audios/rainy-day-in-town-with-birds-singing-194011.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Travel Photos</h3>
+    <img src="https://images.unsplash.com/photo-1756452442348-36fbd4260a33?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Travel destination photo" width="320">
+    <img src="https://images.pexels.com/photos/1796736/pexels-photo-1796736.jpeg" alt="Travel destination photo" width="460">
+
+
+    <h2>Hobbies</h2>
+    <p>I have a variety of hobbies that I really enjoy:</p>
+    <ul>
+        <li>Photography</li>
+        <li>Ice Skating</li>
+        <li>Traveling</li>
+        <li>Reading</li>
+        <li>Movies</li>
+        <li>Shopping</li>
+    </ul>
+
+
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <label>How interested are you in my portfolio?</label>
+        <input type="radio" id="very" name="interest" value="very">
+        <label for="very">Very Interested</label>
+        <input type="radio" id="somewhat" name="interest" value="somewhat">
+        <label for="somewhat">Somewhat Interested</label>
+        <input type="radio" id="notSure" name="interest" value="notSure">
+        <label for="notSure">Not Sure</label><br><br>
+
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+            <option value="feedback">Feedback</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="question">Question</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
